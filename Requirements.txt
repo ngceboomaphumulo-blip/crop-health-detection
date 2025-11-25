@@ -1,6 +1,1 @@
-streamlit
-tensorflow
-opencv-python
-Pillow
-pandas
-numpy
+This file ensures all necessary packages for the Streamlit app are installed.We explicitly specify 'tensorflow' and 'gdown' as they were causing the error.streamlittensorflow==2.16.1gdownnumpy, pandas, and Pillow are often installed automatically by Streamlitbut listing them explicitly is good practice for stability:numpypandasPillow
